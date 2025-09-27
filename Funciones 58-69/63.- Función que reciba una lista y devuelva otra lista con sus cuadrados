@@ -1,0 +1,7 @@
+def cuadrados(lista):
+    nueva = []
+    for num in lista:
+        nueva.append(num ** 2)
+    return nueva
+
+print(cuadrados([1, 3, 6, 7]))
